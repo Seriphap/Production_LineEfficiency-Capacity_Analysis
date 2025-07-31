@@ -1,4 +1,4 @@
-# 🏭 Production_LineEfficiency-Capacity_Analysis
+# 🏭 Production Line Efficiency and Capacity Analysis
 Analyze and optimize production line efficiency and capacity
 
 # 🔗 Streamlit App
