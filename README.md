@@ -6,22 +6,18 @@ Analyze and optimize production line efficiency and capacity
 
 # 🧠 Project Structure
 ```plaintext
-production_analysis_app/
+📁production_analysis_app/
 │
-├── app.py                              # Main Streamlit app
-├── pages/
+├── 📄 app.py                          # Main Streamlit app
+├── 📁 data/                           # Folder for uploade data
+│   ├── UPH.csv
+│   ├── Monthly-Demand.csv
+│   ├── Products-Priority.csv
+├── 📁 modules/
 │   ├── 1_📊_Dashboard.py              # Dashboard and KPI
 │   ├── 2_🔍_Bottleneck_Analysis.py    # Analyze bottleneck
 │   ├── 3_⚙️_Line_Optimization.py      # Analyze efficiency
 │   └── 4_📈_Capacity_Modeling.py      # Analyze capacity
-│
-├── data/                               # Dataset
-│
-├── utils/
-│   ├── data_loader.py                  
-│   ├── analysis.py                     # analyze bottleneck, capacity, efficiency
-│   └── visualization.py                # create graph visualization
-│
 ├── requirements.txt                    # Required libraries
 └── README.md                           # Project description
 
